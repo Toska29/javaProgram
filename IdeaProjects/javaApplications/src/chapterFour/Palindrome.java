@@ -40,8 +40,6 @@ public class Palindrome {
             int firstNumber =  a + b + c;
             int secondNumber =  e + d + c;
 
-            System.out.println(firstNumber);
-            System.out.println(secondNumber);
 
             if (firstNumber == secondNumber){
                 System.out.println("The number is a palindrome");
