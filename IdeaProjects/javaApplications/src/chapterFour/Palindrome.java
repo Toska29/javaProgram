@@ -12,15 +12,13 @@ public class Palindrome {
         int d = 0;
         int e = 0;
 
-        int firstNumber =  a + b + c;
-        int secondNumber =  e + d + c;
 
         System.out.println("Enter a five digit number:");
         int digit = input.nextInt();
         int count = 0;
         number = digit;
-        while (number!=0){
-            number = number/10;
+        while (number != 0){
+            number = number / 10;
 
             count++;
         }
@@ -38,6 +36,12 @@ public class Palindrome {
             int num4 = num3/10;
 
             e = num4 % 10;
+
+            int firstNumber =  a + b + c;
+            int secondNumber =  e + d + c;
+
+            System.out.println(firstNumber);
+            System.out.println(secondNumber);
 
             if (firstNumber == secondNumber){
                 System.out.println("The number is a palindrome");
