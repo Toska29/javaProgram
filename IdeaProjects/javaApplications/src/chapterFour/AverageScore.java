@@ -1,6 +1,6 @@
 package chapterFour;
 import java.util.Scanner;
-public class Iterate {
+public class AverageScore {
     public static void main(String[] args){
 
         int total = 0;

@@ -68,6 +68,5 @@ public class TwoLargestNumbers {
 
         System.out.println("while "+ runnerUpNumber + " is the second large number");
 
-
 }
 }
