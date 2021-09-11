@@ -1,0 +1,70 @@
+h1 {
+    font-size: 24pt;
+}
+.first {
+    color: red;
+}
+h2 {
+    font-size: 18pt;
+    font-weight: bold;
+    color: rgb(241, 8, 8);
+}
+h3 {
+    font-size: 17pt;
+}
+body #grey{
+    background-color: e5e58f;
+}
+body .red{
+    background-color: red;
+}
+body #black {
+    background-color: black;
+}
+body .brown{
+    background-color: brown;
+}
+div {
+    padding: 10px 0px 15px 10px;
+}
+
+ul li a{
+    list-style-type: none;
+    text-decoration: none; 
+    padding: 0px 13px;
+}
+
+nav ul li {
+    float: left;
+    display: block;
+    
+    
+}
+.form {
+    font-style: italic;
+}
+.background {
+    background-color: rgb(232, 241, 232);
+}
+[title]{
+    cursor: help;
+    padding-bottom: 3px;
+    border-bottom: 2px dotted blue;
+    text-decoration: none;
+}
+a:link{
+    text-decoration: underline;
+    color: blue;
+}
+
+a:visited {
+    text-decoration: underline;
+    color: purple;
+}
+a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+a:active{
+    background-color: yellow;
+}

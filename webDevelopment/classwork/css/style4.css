@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(209, 233, 241);
+}
+.main_container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 25%;
+    width: 50%;
+    height: 100%;
+    padding: 20px 0px 0px 0px
+}
+div .first_container{
+    padding-left: 50px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(17, 126, 126);
+    font-size: 25px;
+}
+.first_header_four{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(172, 221, 74);
+}
+.para_one{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(146, 136, 136);
+    padding: 0px;
+    width: 100%;
+}
+.float_left{
+    padding-left: 50px;
+    padding-bottom: 5%;
+    /*float: left;*/
+    width: 50%;
+    background-color: rgb(51, 143, 143);
+    height: 100%;
+    border-bottom-left-radius: 10px;
+    margin-bottom: auto;
+}
+.float_left_second{
+    padding-left: 56px;
+    padding-bottom: 5%;
+    background-color: rgb(100, 194, 194);
+    height: 100%;
+    width: 50%;
+    border-bottom-right-radius: 10px;
+}
+.float{
+    display: flex;
+    height: 100%;
+    margin-bottom: -50px;
+    color: white;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text_space{
+    width: 70%;
+}
+.text_space_two{
+    padding-top: 5%;
+}
+.text_space_one{
+    padding-top: 5%;
+}
+button{
+    width: 70%;
+    padding: 10px;
+    margin-top: 7%;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: grey;
+}
+span {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20pt;
+}
