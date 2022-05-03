@@ -1,5 +1,7 @@
 package eStore;
 
+import java.util.ArrayList;
+
 public class Cart {
-    private Item items;
+    private ArrayList<Item> items;
 }
